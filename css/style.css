@@ -172,9 +172,10 @@ padding:20px;
 
 .slider{
 overflow-x:auto;
-scroll-behavior:smooth;
 white-space:nowrap;
+scroll-behavior:smooth;
 cursor:grab;
+-webkit-overflow-scrolling:touch;
 }
 
 .slider::-webkit-scrollbar{
