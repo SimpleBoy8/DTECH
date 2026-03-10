@@ -1,0 +1,205 @@
+body{
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+background:#f8f9fa;
+}
+
+/* LOGO */
+
+.logo{
+height:40px;
+margin-right:10px;
+}
+
+.brand-text{
+font-weight:600;
+font-size:20px;
+}
+
+/* NAVBAR */
+
+.navbar{
+background:rgba(0,0,0,0.6);
+backdrop-filter:blur(10px);
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+
+background: linear-gradient(#ff5f05, #f9af63), url(../images/hero.png);
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+align-items:center;
+
+color:white;
+}
+
+.hero h1{
+font-size:60px;
+font-weight:700;
+}
+
+/* SERVICES */
+
+.services{
+padding:100px 0;
+}
+
+.service-card{
+background:white;
+padding:40px;
+border-radius:15px;
+box-shadow:0 15px 40px rgba(0,0,0,0.1);
+text-align:center;
+transition:0.4s;
+}
+
+.service-card:hover{
+transform:translateY(-15px);
+box-shadow:0 20px 60px rgba(0,0,0,0.2);
+}
+
+.service-icon{
+font-size:40px;
+color:#ff7b00;
+margin-bottom:15px;
+}
+
+/* PORTFOLIO */
+
+.portfolio{
+padding:100px 0;
+background:white;
+}
+
+.portfolio-img{
+width:100%;
+border-radius:12px;
+transition:0.4s;
+}
+
+.portfolio-img:hover{
+transform:scale(1.08);
+}
+
+/* CONTACT */
+
+.contact{
+padding:100px 0;
+background:#f9f9f9;
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+font-size:24px;
+padding:15px 18px;
+border-radius:50%;
+text-decoration:none;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+/* CONTACT SECTION */
+
+.contact{
+padding:100px 0;
+background:#f8f9fa;
+}
+
+.section-title{
+font-size:38px;
+font-weight:600;
+}
+
+/* Contact Cards */
+
+.contact-card{
+background:white;
+padding:40px;
+border-radius:15px;
+box-shadow:0 15px 40px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.contact-card:hover{
+transform:translateY(-5px);
+}
+
+/* Form */
+
+.contact .form-control{
+border-radius:8px;
+padding:12px;
+}
+
+/* Contact List */
+
+.contact-list{
+list-style:none;
+padding:0;
+margin-top:20px;
+}
+
+.contact-list li{
+padding:12px 0;
+font-size:16px;
+border-bottom:1px solid #eee;
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.contact-list i{
+color:#ff7b00;
+font-size:18px;
+}
+/* FOOTER */
+
+.footer{
+background:#111;
+color:white;
+padding:20px;
+}
+
+.slider{
+overflow:hidden;
+background:white;
+}
+.slide-track{
+display:flex;
+width:calc(250px * 12);
+animation:scroll 30s linear infinite;
+}
+.slide-track:hover
+{
+    animation:none;
+}
+.slide-track img{
+width:250px;
+height:180px;
+object-fit:cover;
+margin:10px;
+border-radius:10px;
+}
+
+@keyframes scroll{
+
+0%{
+transform:translateX(0);
+}
+
+100%{
+transform:translateX(-50%);
+}
+
+}
+
